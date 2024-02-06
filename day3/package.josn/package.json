@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "a node js practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/pawan1816/Practice-Node-js)"
+  },
+  "keywords": [
+    "code",
+    "node",
+    "javascript",
+    "practice"
+  ],
+  "author": "pawan kumar paik",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3",
+    "colorful": "^2.1.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}

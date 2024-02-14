@@ -1,0 +1,10 @@
+Express js is framework in node js
+//install Express===> npm install express 
+
+
+Routing
+// request and response   (${req.query.parameter})
+// client always request and server always response
+
+
+Render(display) HTML and JSON

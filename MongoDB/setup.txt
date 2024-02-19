@@ -1,0 +1,10 @@
+step 1  on browser download mongoDB (msi package)
+step 2 install MongoDB
+now to check the version and insure the installation 
+set path on enviroment set up
+
+
+
+// connection between mongoDB and node js
+// to install mongoDB : npm i mongodb
+

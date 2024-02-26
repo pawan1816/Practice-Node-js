@@ -1,6 +1,6 @@
-const {MongoClient} = require('mongodb')
-const url = 'mongodb://localhost:27017';
-const databaseName='e-comm'
+const {MongoClient} = require('mongodb');
+const url = 'mongodb://127.0.0.1:27017';
+const databaseName='e-com'
 const client= new MongoClient(url);
 
 async function getData()

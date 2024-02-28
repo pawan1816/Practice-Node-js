@@ -1,6 +1,6 @@
 // Read data form mongoDB
 
-const dbConnact=require('./mongodb')
+const dbConnect=require('./mongodb')
 
 // 1st way Promise handle
 
@@ -16,7 +16,7 @@ const dbConnact=require('./mongodb')
 // second way to control promise
 const main = async()=>{
     // console.log("main function called");
-   let data=await dbConnact();
+   let data=await dbConnect();
    data=await data.find().toArray();
    console.warn(data);
 }

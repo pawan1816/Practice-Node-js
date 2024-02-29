@@ -2,6 +2,8 @@ const dbConnect=require('./mongodb')
 
 const insertdata = async()=>{
     const db= await dbConnect();
+    // for one data insert we use insertone function
+    // for many data insert we use insertMany function
     const result= await db.insertMany(
         [
             {name:'c2',brand:'realme',price:'70000'},
